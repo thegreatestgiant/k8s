@@ -16,7 +16,7 @@ spec:
       labels:
         app: synergychat-crawler
     spec:
-      containers: 
+      containers:
         - name: synergychat-crawler-1
           image: lanecwagner/synergychat-crawler:latest
           envFrom:
@@ -73,6 +73,4 @@ spec:
       volumes:
         - name: cache-volume 
           emptyDir: {}
-
-
 
